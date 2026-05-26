@@ -3,7 +3,6 @@
 ## Project Title
 Building and Deploying a Personal Portfolio Website Using Cloud Platforms
 
----
 
 # Student Information
 
@@ -11,7 +10,6 @@ Building and Deploying a Personal Portfolio Website Using Cloud Platforms
 - Course: Cloud Computing
 - Institution: EASTC
 
----
 
 # Project Description
 
