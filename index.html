@@ -1,66 +1,344 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+
+    <title>Daniel Likalamoto Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
 
-<header>
-    <h1>Daniel Likalamoto</h1>
-    <p>Data Science Student</p>
-</header>
+    <!-- NAVBAR -->
+    <nav>
 
-<section>
-    <h2>About Me</h2>
-    <p>
-        I am a Data Science student interested in cloud computing,
-        web development and data analysis.
-    </p>
-</section>
+        <div class="logo">
+            Daniel Portfolio
+        </div>
 
-<section>
-    <h2>Skills</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
-    <ul>
-        <li>Python</li>
-        <li>PHP</li>
-        <li>JavaScript</li>
-        <li>Cloud Computing</li>
-        <li>Data Analysis</li>
-    </ul>
-</section>
+    </nav>
 
-<section>
-    <h2>Qualifications</h2>
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
 
-    <p>
-        Bachelor/Diploma in Data Science - EASTC
-    </p>
-</section>
+        <div class="hero-text">
 
-<section>
-    <h2>Projects</h2>
+            <h1>Hello, I'm <span>Daniel Likalamoto</span></h1>
 
-    <ul>
-        <li>Portfolio Website</li>
-        <li>Student Management System</li>
-        <li>Waste Management System</li>
-    </ul>
-</section>
+            <h2>
+                Data Scientist| Web Developer | Cloud Computing Enthusiast
+            </h2>
 
-<section>
-    <h2>Contact Information</h2>
+            <p>
+                Passionate about software development, cloud computing,
+                data science, and building modern digital solutions
+                that solve real-world problems.
+            </p>
 
-    <p>Email: daniel@example.com</p>
-    <p>Phone: +255 7XX XXX XXX</p>
-</section>
+            <div class="hero-buttons">
 
-<script src="script.js"></script>
+                <a href="my CV.pdf" download class="btn">
+                    Download CV
+                </a>
+
+                <a href="#contact" class="btn btn-secondary">
+                    Contact Me
+                </a>
+
+            </div>
+
+            <!-- SOCIAL ICONS -->
+            <div class="social-icons">
+
+                <a href="https://github.com/" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://linkedin.com/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="https://instagram.com/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://twitter.com/" target="_blank">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- PROFILE IMAGE -->
+        <div class="hero-image">
+
+            <img src="image.jpeg" alt="Profile Picture">
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+
+        <div class="about-image">
+
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
+                alt="About Image">
+
+        </div>
+
+        <div class="about-text">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am a passionate and motivated Data Science student
+                with strong interests in software engineering,
+                cloud computing, artificial intelligence,
+                and data analytics.
+            </p>
+
+            <p>
+                I enjoy building responsive websites,
+                backend APIs, databases, and intelligent systems
+                capable of solving real-world problems.
+            </p>
+
+            <p>
+                My career goal is to become a professional
+                software engineer and data scientist
+                capable of creating impactful digital solutions.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skill-box">
+
+            <p>HTML</p>
+
+            <div class="progress">
+                <div class="progress-bar html&css">
+                    90%
+                </div>
+            </div>
+
+        </div>
+
+        <div class="skill-box">
+
+            <p>CSS</p>
+
+            <div class="progress">
+                <div class="progress-bar machinelearning">
+                    85%
+                </div>
+            </div>
+
+        </div>
+
+        <div class="skill-box">
+
+            <p>JavaScript</p>
+
+            <div class="progress">
+                <div class="progress-bar js">
+                    75%
+                </div>
+            </div>
+
+        </div>
+
+        <div class="skill-box">
+
+            <p>Python</p>
+
+            <div class="progress">
+                <div class="progress-bar python">
+                    85%
+                </div>
+            </div>
+
+        </div>
+
+        <div class="skill-box">
+
+            <p>SQL</p>
+
+            <div class="progress">
+                <div class="progress-bar sql">
+                    80%
+                </div>
+            </div>
+
+        </div>
+
+        <div class="skill-box">
+
+            <p>R Programming</p>
+
+            <div class="progress">
+                <div class="progress-bar r">
+                    70%
+                </div>
+            </div>
+
+        </div>
+
+        <div class="skill-box">
+
+            <p>Cloud Computing</p>
+
+            <div class="progress">
+                <div class="progress-bar cloud">
+                    75%
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+
+            <!-- PROJECT 1 -->
+            <div class="project-card">
+
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop">
+
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    A professional responsive personal portfolio website
+                    developed using HTML, CSS, and JavaScript
+                    and deployed using Vercel cloud hosting.
+                </p>
+
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="project-card">
+
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop">
+
+                <h3>Data Analytics Dashboard</h3>
+
+                <p>
+                    Interactive dashboard for data analysis
+                    and visualization using modern data science tools.
+                </p>
+
+            </div>
+
+            <!-- PROJECT 3 -->
+            <div class="project-card">
+
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop">
+
+                <h3>Data Driven Waste Management System</h3>
+
+                <p>
+                    Smart waste management platform
+                    that uses data collection and analytics
+                    to improve waste monitoring and environmental management.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+
+        <h2>Contact Me</h2>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    daniellikalamoto@gmail.com
+                </p>
+
+                <p>
+                    <i class="fas fa-phone"></i>
+                    +255 763514434 / +255 675914434
+                </p>
+
+                <p>
+                    <i class="fas fa-location-dot"></i>
+                    Dar es Salaam, Tanzania
+                </p>
+
+            </div>
+
+            <!-- CONTACT FORM -->
+            <form>
+
+                <input type="text" placeholder="Your Name" required>
+
+                <input type="email" placeholder="Your Email" required>
+
+                <textarea rows="5" placeholder="Your Message"></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Daniel Likalamoto | All Rights Reserved
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
+```
